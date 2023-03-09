@@ -1,0 +1,92 @@
+.App {
+ color:#F7E7CE;
+ font-family:'Holtwood One SC', Arial, Helvetica, sans-serif;
+ font-size:17px;
+ text-shadow: 2px 2px black;
+ background: #c5a571;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height:100px;
+  background:url('../public/assets/lightwood.jpeg');
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner{
+  height: 250px;
+  width: 100vw;
+  padding: 10px;
+  padding-top:50px;
+  padding-bottom:10px;
+  width:70vw;
+  margin: 10px auto;
+  
+}
+
+#banner-a, #banner-c, #banner-e{
+  padding-bottom:30px;
+
+}
+
+#banner-a{
+  background:url('../public/assets/redWood.jpeg');
+  background-position:center center;
+  background-size: cover;
+}
+
+#banner-b{
+  background: url('../public/assets/wood.jpeg');
+  height:250px;
+}
+
+#banner-c{
+  background:url('../public/assets/pressboard.jpeg');
+  background-position:center center;
+  background-size: cover;
+}
+
+#banner-d{
+  background:url('../public/assets/darkwood.jpeg');
+  background-position:center center;
+  background-size: cover;
+}
+
+#banner-e{
+  background:url('../public/assets/lightwood.jpeg');
+  background-position:center center;
+  background-size: cover;
+}
+
+.example-img{
+  max-height:200px;
+  padding:20px;
+}
+
+p {
+  word-wrap:break-word;
+}
