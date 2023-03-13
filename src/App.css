@@ -3,7 +3,13 @@
  font-family:'Holtwood One SC', Arial, Helvetica, sans-serif;
  font-size:17px;
  text-shadow: 2px 2px black;
- background: #c5a571;
+
+}
+
+body{
+  background-image: url('../public/assets/reddog.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -11,6 +17,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 #App-header {
   display: flex;
@@ -54,9 +62,9 @@
 }
 
 #banner-a{
-  background:url('../public/assets/redWood.jpeg');
+  background:url('../public/assets/grey_wood.jpeg');
   background-position:center center;
-  background-size: cover;
+  background-size:contain;
 }
 
 #banner-b{
@@ -65,19 +73,19 @@
 }
 
 #banner-c{
-  background:url('../public/assets/pressboard.jpeg');
+  background:url('../public/assets/planks_with_trim.jpeg');
   background-position:center center;
   background-size: cover;
 }
 
 #banner-d{
-  background:url('../public/assets/darkwood.jpeg');
+  background:url('../public/assets/tree_core.jpeg');
   background-position:center center;
   background-size: cover;
 }
 
 #banner-e{
-  background:url('../public/assets/lightwood.jpeg');
+  background:url('../public/assets/dark_planks.jpg');
   background-position:center center;
   background-size: cover;
 }
@@ -89,4 +97,81 @@
 
 p {
   word-wrap:break-word;
+}
+
+#order{
+  text-align:center;
+
+}
+
+#message{
+  width:400px;
+  height:500px;
+  vertical-align:top;
+}
+
+textarea{
+  background:transparent;
+  vertical-align:top;
+  color:#8B4513;
+  font-family:'Holtwood One SC', Arial, Helvetica, sans-serif;
+ font-size:17px;
+ text-shadow: 2px 2px darkgray;
+}
+
+@media screen and (max-width: 393px) {
+  .App {
+    font-size: 20px;
+  }
+  
+  #App-header {
+    height: 70px;
+  }
+  
+  .banner {
+    font-size:15px;
+    height: 200px;
+    width: 90vw;
+    margin: 10px auto;
+  }
+  
+  #banner-a{
+    height:350px;
+  }
+  #banner-b{
+    height:500px;
+  }
+
+  #banner-c{
+    height:500px;
+  }
+
+  #banner-d{
+    height:450px;
+  }
+
+  #banner-e{
+    height:450px;
+  }
+
+  .example-img {
+    max-height: 150px;
+    margin-top:40px;
+  }
+  
+  #message {
+    width: 90%;
+    height: 300px;
+  }
+
+  body{
+    background-size:stretch;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }

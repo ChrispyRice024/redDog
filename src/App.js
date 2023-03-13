@@ -4,6 +4,7 @@ import './App.css'
 import Contact from './pages/Contact'
 import Header from './pages/Header'
 import Home from './pages/Home'
+import Order from './pages/Order'
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
 
           <Routes>
             <Route exact path='/' element={<Home />}/>
-            {/* <Route path='/about' element={<About/>}/>
-            <Route path='/order' element={<Order/>}/> */}
+            {/* <Route path='/about' element={<About/>}/> */}
+            <Route path='/order' element={<Order/>}/>
             <Route path='/contact' element={<Contact/>}/>
           </Routes>
 
