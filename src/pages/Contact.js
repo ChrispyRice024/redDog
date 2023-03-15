@@ -5,8 +5,8 @@ export default class Contact extends React.Component {
 
         return(
             <div>
-                <p>Phone Number: (678) XXX - XXXX</p>
-                <p>E-Mail: XXXX@gmail.com</p>
+                <p>Phone Number: <a href='tel:+6783140072'>(678) 314-0072</a></p>
+                <p>E-Mail: <a href='mailto:scott@rdcustom.org'>Scott@rdcustom.org</a></p>
                 <p></p>
             </div>
         )

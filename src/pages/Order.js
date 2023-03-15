@@ -25,6 +25,8 @@ export default class Order extends React.Component{
                     <input name='user_name' type='text' placeholder='Your Name' /></p>
                     <p><label htmlfor='user_email'>E-Mail:  </label>
                     <input name='user_email' type='email' placeholder='Your E-Mail' /> </p>
+                    <p><label htmlFor='city'>City: </label>
+                    <input type='text' name='city' placeholder='City'/> </p>
                     <p><label htmlfor='type'>What Type of Work are you looking for?  </label> 
                     <input name='type' type='text' placeholder='Cabinet/Table/Chair'/></p>
                     <p><textarea id='message' rows='21' cols='40' name='message' type='textarea' wrap='hard' placeholder='If You Have any specifics please, put them here.'></textarea> </p>

@@ -12,12 +12,12 @@ function App() {
       <Router>
         <div className="App">
         <header>
-          {/* <Header/> */}
+          <Header/>
         </header>
 
           <Routes>
             <Route exact path='/' element={<Home />}/>
-            {/* <Route path='/gallery' element={<Gallery/>}/> */}
+            <Route path='/gallery' element={<Gallery/>}/>
             <Route path='/order' element={<Order/>}/>
             <Route path='/contact' element={<Contact/>}/>
           </Routes>

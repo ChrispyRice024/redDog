@@ -119,7 +119,7 @@ textarea{
  text-shadow: 2px 2px darkgray;
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 800px) {
   .App {
     font-size: 20px;
   }
@@ -130,13 +130,15 @@ textarea{
   
   .banner {
     font-size:15px;
-    height: 200px;
-    width: 90vw;
+    height: auto;
+    width: 100vw;
     margin: 10px auto;
+    display:table-cell;
+    display:center;
   }
   
   #banner-a{
-    height:350px;
+    height:300px;
   }
   #banner-b{
     height:500px;
@@ -151,11 +153,11 @@ textarea{
   }
 
   #banner-e{
-    height:450px;
+    height:auto;
   }
 
   .example-img {
-    max-height: 150px;
+    max-height: auto;
     margin-top:40px;
   }
   
@@ -174,8 +176,29 @@ textarea{
     size:100vw;
   }
 
+  #banner-a-img{
+    width:80vw;
+  }
+
   p {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+a{
+  color:#D9C0A0 ;
+  text-shadow:2px 2px black;
+  text-decoration:none;
+}
+
+.gallery-img{
+  width:20vw;
+  padding:10px;
+  
+}
+#gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }

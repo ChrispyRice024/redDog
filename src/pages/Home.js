@@ -8,9 +8,10 @@ class Home extends React.Component {
           <div>
             <img
               align="left"
-              src="./assets/chair.jpeg"
+              src="./assets/small_black_kitchen.jpg"
               alt="Chair"
               className="example-img"
+              id='banner-a-img'
             />
           </div>
           <div className="banner">
@@ -43,7 +44,7 @@ class Home extends React.Component {
           <div id="banner-c" className="banner">
             <img
               align="left"
-              src="./assets/laundry_room.jp  +g"
+              src="./assets/laundry_room.jpg"
               alt="Trim"
               className="example-img"
             />
