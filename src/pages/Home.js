@@ -43,7 +43,7 @@ class Home extends React.Component {
           <div id="banner-c" className="banner">
             <img
               align="left"
-              src="./assets/trim.jpeg"
+              src="./assets/laundry_room.jp  +g"
               alt="Trim"
               className="example-img"
             />

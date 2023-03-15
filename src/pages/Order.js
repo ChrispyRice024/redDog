@@ -21,11 +21,13 @@ export default class Order extends React.Component{
             <div id='order'>
                 <form id='contact_form' onSubmit={handleSubmit}>
                     <input type="hidden" name="contact_number"/>
-                    <p><label htmlfor='user_name'>Name:</label>
+                    <p><label htmlfor='user_name'>Name:  </label>
                     <input name='user_name' type='text' placeholder='Your Name' /></p>
-                    <p><label htmlfor='user_email'>E-Mail:</label>
+                    <p><label htmlfor='user_email'>E-Mail:  </label>
                     <input name='user_email' type='email' placeholder='Your E-Mail' /> </p>
-                    <p><textarea id='message' rows='21' cols='40' name='message' type='textarea' wrap='hard' placeholder='Write your message'></textarea> </p>
+                    <p><label htmlfor='type'>What Type of Work are you looking for?  </label> 
+                    <input name='type' type='text' placeholder='Cabinet/Table/Chair'/></p>
+                    <p><textarea id='message' rows='21' cols='40' name='message' type='textarea' wrap='hard' placeholder='If You Have any specifics please, put them here.'></textarea> </p>
                     <input type='submit' value='Send Message'/>
                 </form>
             </div>

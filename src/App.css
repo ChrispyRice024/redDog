@@ -28,8 +28,8 @@ body{
   font-size: calc(10px + 2vmin);
   color: white;
   height:100px;
-  background:url('../public/assets/lightwood.jpeg');
-  background-size: cover;
+  background:url('../public/assets/planks.jpeg');
+
 }
 
 .App-link {
@@ -168,6 +168,10 @@ textarea{
     background-size:stretch;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  img{
+    size:100vw;
   }
 
   p {

@@ -5,18 +5,19 @@ import Contact from './pages/Contact'
 import Header from './pages/Header'
 import Home from './pages/Home'
 import Order from './pages/Order'
+import Gallery from './pages/Gallery'
 
 function App() {
   return (
       <Router>
         <div className="App">
         <header>
-          <Header/>
+          {/* <Header/> */}
         </header>
 
           <Routes>
             <Route exact path='/' element={<Home />}/>
-            {/* <Route path='/about' element={<About/>}/> */}
+            {/* <Route path='/gallery' element={<Gallery/>}/> */}
             <Route path='/order' element={<Order/>}/>
             <Route path='/contact' element={<Contact/>}/>
           </Routes>
